@@ -28,11 +28,12 @@ More information on the plug-in structure and how plug-ins can be developed are 
 
 ## Documentation
 The project is described in pertaining works:
-[Design of an Extensible BPMN Process Simulator](https://www.researchgate.net/publication/322524759_Design_of_an_Extensible_BPMN_Process_Simulator)
-[Wong, T.Y.: Extensible BPMN Process Simulator. Master’s thesis, Hasso Plattner Institut, University of Potsdam (2017)]()
+1. [Design of an Extensible BPMN Process Simulator](https://www.researchgate.net/publication/322524759_Design_of_an_Extensible_BPMN_Process_Simulator)  
+2. [Wong, T.Y.: Extensible BPMN Process Simulator. Master’s thesis, Hasso Plattner Institut, University of Potsdam (2017)]()
 
 ## Repository structure
 > Tree level 1 
+```
 scylla
 ├── README.md
 ├── lib
@@ -42,3 +43,4 @@ scylla
 ├── src
 ├── target
 └── todo.md 
+```
