@@ -22,3 +22,23 @@ Scylla needs a JRE 1.8 installation to run.
 
 Import the *scylla* Maven project in your Java IDE (e.g. Eclipse).
 More information on the plug-in structure and how plug-ins can be developed are given in the [developer documentation](https://github.com/bptlab/scylla/wiki).
+
+## Getting started
+> a brief description and example of how to run
+
+## Documentation
+The project is described in pertaining works:
+[Design of an Extensible BPMN Process Simulator](https://www.researchgate.net/publication/322524759_Design_of_an_Extensible_BPMN_Process_Simulator)
+[Wong, T.Y.: Extensible BPMN Process Simulator. Master’s thesis, Hasso Plattner Institut, University of Potsdam (2017)]()
+
+## Repository structure
+> Tree level 1 
+scylla
+├── README.md
+├── lib
+├── plugins
+├── pom.xml
+├── samples
+├── src
+├── target
+└── todo.md 
