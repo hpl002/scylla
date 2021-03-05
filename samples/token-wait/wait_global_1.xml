@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bsim:globalConfiguration xmlns:bsim="http://bsim.hpi.uni-potsdam.de/scylla/simModel" targetNamespace="http://www.hpi.de" id="Kreditkarte_global_1">
+  <bsim:resourceData>
+    <bsim:dynamicResource id="Caseworker" defaultQuantity="1" defaultCost="25.0" defaultTimeUnit="HOURS" />
+  </bsim:resourceData>
+</bsim:globalConfiguration>

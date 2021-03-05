@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bsim:definitions xmlns:bsim="http://bsim.hpi.uni-potsdam.de/scylla/simModel" targetNamespace="http://www.hpi.de">
+  <bsim:simulationConfiguration id="Wait_sim_1" startDateTime="2017-10-01T09:00+01:00" processRef="Process_wait_1" processInstances="10" randomSeed="280">
+
+    <bsim:Task id="Activity_1a5hq79" name="wait">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>40</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Caseworker" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+
+    <bsim:startEvent id="StartEvent_1">
+      <bsim:arrivalRate timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:arrivalRate>
+    </bsim:startEvent>
+
+  </bsim:simulationConfiguration>
+</bsim:definitions>
